@@ -1,0 +1,42 @@
+#__app_id__ .onedrive-content {
+  color: #07C; }
+
+#__app_id__ .onedrive-folder-icon {
+  background: url("{{'folder.png' | asset_url}}");
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  height: 25px;
+  width: 10%;
+  float: left;
+  margin-left: 5%; }
+
+#__app_id__ .onedrive-file-icon {
+  background: url("{{'file.png' | asset_url}}");
+  background-repeat: no-repeat;
+  background-size: 18px 20px;
+  height: 25px;
+  width: 10%;
+  float: left;
+  margin-left: 5%; }
+
+#__app_id__ .flash-box {
+  margin-left: 0px;
+  width: 264px; }
+
+#__app_id__ .meeting-form {
+  width: 200px;
+  padding: 10px;
+  border: 2px solid gray;
+  margin: 0; }
+
+#__app_id__ .request {
+  padding-left: 10px;
+  padding-top: 15px; }
+
+#__app_id__ .request-btn {
+  outline: none;
+  width: 80px; }
+
+#__app_id__ .request-status {
+  color: grey;
+  margin-left: 15px; }

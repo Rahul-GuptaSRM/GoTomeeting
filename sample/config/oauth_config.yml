@@ -1,0 +1,19 @@
+# Oauth configration settings:
+# 1. client_id - Identifier used by the API to identify the App.
+# 2. client_secret - Used to authenticate the identity of the app to the API.
+# 3. authorize_url - URL for authorization.
+# 4. token_url - URL to request for access token.
+# 5. scope - specifies the level of access that the App is requesting (read write sign).
+# 6. token_type - specifies the level of token requested (account user).
+# 7. options (optional) - options as [key, value] pair.
+# 8. header (optional) - any parameters can be added in the header.
+
+#sample:
+
+client_id: "99f88183-04fb-42d5-ae8c-2b93fc2a96c1"
+client_secret: "7W212kaPSemUpzX0ijJkAXm"
+authorize_url: "https://login.live.com/oauth20_authorize.srf"
+token_url: "https://login.live.com/oauth20_token.srf"
+options:
+ scope: "onedrive.readwrite offline_access"
+token_type: "account"

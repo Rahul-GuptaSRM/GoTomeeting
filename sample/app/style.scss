@@ -1,0 +1,55 @@
+.onedrive-content {
+  color: #07C;
+}
+
+.onedrive-folder-icon {
+  background: url("{{'folder.png' | asset_url}}");
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  height: 25px;
+  width: 10%;
+  float: left;
+  margin-left: 5%;
+}
+
+.onedrive-file-icon {
+  background: url("{{'file.png' | asset_url}}");
+  background-repeat: no-repeat;
+  background-size: 18px 20px;
+  height: 25px;
+  width: 10%;
+  float: left;
+  margin-left: 5%;
+}
+
+.flash-box {
+  margin-left: 0px;
+  width: 264px;
+}
+
+#box{
+  
+  
+}
+
+.meeting-form
+{
+  width: 200px;
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 0;
+}
+.request {
+  padding-left: 10px;
+  padding-top: 15px;
+}
+
+.request-btn {
+  outline: none;
+  width: 80px;
+}
+
+.request-status {
+  color: grey;
+  margin-left: 15px;
+}
